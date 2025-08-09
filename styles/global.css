@@ -12,8 +12,16 @@
 
   --text-color-primary: #313131;
   --text-color-secondary: #6c6c6c;
+
+  --font-family: 'Poppins', sans-serif;
+  --text: normal 16px/150% var(--font-family);
+  --text-lg: bold 32px/125% var(--font-family);
+  --text-md: normal 14px/170% var(--font-family);
+  --text-sm: normal 12px/170% var(--font-family);
 }
 body {
+  font-family: var(--font-family);
+  font: var(--text);
   color: var(--text-color-secondary);
   background: var(--background-color);
 }
